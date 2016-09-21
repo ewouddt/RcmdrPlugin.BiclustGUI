@@ -96,7 +96,7 @@ biclust.bimax.GUI <- function(x,method,minr,minc,number,maxc,backfit,n2,maxbiche
 		doItAndPrint("Bimax")
 	}
 	if(maxbicheck==1){
-		doItAndPrint(paste("Bimax <- biclust(x=",dataname,",method=BCrepBimax(),minr=",minr,",minc=",minc,"maxc= ",maxc,",number=",number,")"))
+		doItAndPrint(paste0("Bimax <- biclust(x=",dataname,",method=BCrepBimax(),minr=",minr,",minc=",minc,",maxc=",maxc,",number=",number,")"))
 		doItAndPrint("Bimax")
 	}
 	
