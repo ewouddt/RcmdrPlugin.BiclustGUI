@@ -8,14 +8,14 @@ The BiclustGUI for R Commander
 Installing the GUI
 ------------------
 
-To install the **CRAN Release Version**, please use the following commands:
+To install the **CRAN Release Version** (1.0.6), please use the following commands:
 
 ``` r
 setRepositories(ind=c(1:5))
 install.packages("RcmdrPlugin.BiclustGUI")
 ```
 
-To install the **Development Version** from either the *R-Forge* or *GitHub* repository use
+To install the **Development Version** (1.0.7) from either the *R-Forge* or *GitHub* repository use
 
 ``` r
 setRepositories(ind=c(1:5))
