@@ -14,10 +14,10 @@ Biclustering in a GUI & Growing a GUI together!
 
 ### Introduction
 
-We are happy to announce the first release of the **BiclustGUI** on [CRAN](https://cran.r-project.org/web/packages/RcmdrPlugin.BiclustGUI/) (`RcmdrPlugin.BiclustGUI`)!
+We are happy to announce the first release of the **BiclustGUI** on [CRAN](https://cran.r-project.org/web/packages/RcmdrPlugin.BiclustGUI/){:target="_blank"} (`RcmdrPlugin.BiclustGUI`)!
 This GUI will you enable to quickly try out a wide arrange of biclustering algorithms and produce some helpfull graphs in order to explore your data. Since we made the choice of developing it in the form of a plug-in for R Commander, you can save your R code after the session which can be used without GUI intervention. However for those of you who love using Shiny, have no fear! We have also created a Shiny App including all the biclustering algorithms and the most interesting plots. (For all available diagnostics and graphs, you will have to head over to the BiclustGUI package itself though.)
 
-This blog is meant as a short introduction to the GUI which will highlight some features, give an example or two and showcase what else we have done in this area. A detailed instruction guide about all aspects of the GUI (as well as some short explanation about the included algorithms) can be found in the form of a vignette [here](https://cran.r-project.org/web/packages/RcmdrPlugin.BiclustGUI/vignettes/GuideBiclustGUI.pdf). [1]
+This blog is meant as a short introduction to the GUI which will highlight some features, give an example or two and showcase what else we have done in this area. A detailed instruction guide about all aspects of the GUI (as well as some short explanation about the included algorithms) can be found in the form of a vignette [here](https://cran.r-project.org/web/packages/RcmdrPlugin.BiclustGUI/vignettes/GuideBiclustGUI.pdf){:target="_blank"}. [1]
 
 ### What is biclustering?
 
@@ -148,7 +148,7 @@ setRepositories(ind=c(1:5))
 install.packages("RcmdrPlugin.BiclustGUI")
 ```
 
-This will install the GUI and its dependencies from both CRAN and Bioconductor. Should some issue arise with a package installation, please try to manual install them. The code for this can be found [here](https://ibiostat.be/online-resources/online-resources/biclustgui/biclustgui).
+This will install the GUI and its dependencies from both CRAN and Bioconductor. Should some issue arise with a package installation, please try to manual install them. The code for this can be found [here](https://ibiostat.be/online-resources/online-resources/biclustgui/biclustgui){:target="_blank"}.
 
 On the initial start-up of R Commander, you will probably be prompted to install some additional dependencies. This should not take too long!
 
@@ -158,7 +158,7 @@ To launch the GUI, use:
 library(RcmdrPlugin.BiclustGUI)
 ```
 
-(Note: A development version can be found on [GitHub](https://github.com/ewouddt/RcmdrPlugin.BiclustGUI) and [R-Forge](https://r-forge.r-project.org/R/?group_id=2104)).
+(Note: A development version can be found on [GitHub](https://github.com/ewouddt/RcmdrPlugin.BiclustGUI) and [R-Forge](https://r-forge.r-project.org/R/?group_id=2104){:target="_blank"}).
 
 ### What's R Commander & The BiclustGUI Plug-in?
 
@@ -216,7 +216,7 @@ FABIA Windows
 
 ### How about future algorithms? Including new methods!
 
-As I explained in an earlier section, we wanted to develop an easy way to include new biclustering R packages in the future. We wanted to make sure the GUI stayed up to date with recent developments by growing it as a community. The way we addressed this problem this was through *"fill-out template scripts"* which do not require the original `tcltk` syntax. I will try to outline the general idea and workings behind these scripts, but by no means will this be a full tutorial! A much more detailed explanation can be found in the second part of the [vignette](https://cran.r-project.org/web/packages/RcmdrPlugin.BiclustGUI/vignettes/GuideBiclustGUI.pdf).
+As I explained in an earlier section, we wanted to develop an easy way to include new biclustering R packages in the future. We wanted to make sure the GUI stayed up to date with recent developments by growing it as a community. The way we addressed this problem this was through *"fill-out template scripts"* which do not require the original `tcltk` syntax. I will try to outline the general idea and workings behind these scripts, but by no means will this be a full tutorial! A much more detailed explanation can be found in the second part of the [vignette](https://cran.r-project.org/web/packages/RcmdrPlugin.BiclustGUI/vignettes/GuideBiclustGUI.pdf){:target="_blank"}.
 
 The remainder of this section will be a bit more 'R-code dense' so if this does not interest you, you can safely skip to the next one, *The Shiny App*.
 
@@ -235,7 +235,7 @@ Since they are so similar, let's just focus on the first type.
 #### Structure of a Window Script
 
 The script, provided in `newmethod_script.R` in the `doc` folder of the BiclustGUI package, starts with opening the window function (here called `newmethod_WINDOW`, but you can change this). Next, some objects are initialized, followed by some variables which need to changed to adapt it to the method you want to implement. These are variables such as the name of the method, the function used for the method, the argument of this function which accepts the data, etc.
-It is also possible to add some discretize or binarize frames to the window (see Figure below). (See the [vignette](https://cran.r-project.org/web/packages/RcmdrPlugin.BiclustGUI/vignettes/GuideBiclustGUI.pdf) for more detailed information about all of these variables!)
+It is also possible to add some discretize or binarize frames to the window (see Figure below). (See the [vignette](https://cran.r-project.org/web/packages/RcmdrPlugin.BiclustGUI/vignettes/GuideBiclustGUI.pdf){:target="_blank"} for more detailed information about all of these variables!)
 
 What follows next is the information that will decide how the window will look like for the two tabs, but we will come back to that in a minute.
 At the very end of the script all the defined variables come together in the `cluster_template()` function which will translate all of this info to `tcltk` syntax.
@@ -440,8 +440,8 @@ It is possible to draw heatmaps, profile plots and export your results. However 
 
 The Shiny App is available:
 
-1.  online on the [Shiny Cloud](https://uhasselt.shinyapps.io/shiny-biclust/) (currently only with limited resources!).
-2.  as a **stand-alone version** right [here](https://ibiostat.be/online-resources/online-resources/biclustgui/shinyapp) ([Direct Link](https://ibiostat.be/online-resources/online-resources/biclustgui/biclust-shiny-standalone/biclustshiny_standalone_1-0.1) for version 1.0.1).
+1.  online on the [Shiny Cloud](https://uhasselt.shinyapps.io/shiny-biclust/) (currently only with limited resources!){:target="_blank"}.
+2.  as a **stand-alone version** right [here](https://ibiostat.be/online-resources/online-resources/biclustgui/shinyapp){:target="_blank"} ([Direct Link](https://ibiostat.be/online-resources/online-resources/biclustgui/biclust-shiny-standalone/biclustshiny_standalone_1-0.1){:target="_blank"} for version 1.0.1).
     -   Download the zip-file, extract and doubleclick `LAUNCH.vbs`.
 
 <img src="{{ site.url }}/img/biclustGUI_images/shinyibbig.png" alt="Shiny App - iBBiG" width="100%" />
@@ -451,7 +451,7 @@ Shiny App - iBBiG
 
 ### The REST Package
 
-A side-product of the BiclustGUI project came in the form of another R package, [REST](https://cran.r-project.org/web/packages/REST/index.html) (**R**cmdr **E**asy **S**cript **T**emplates), a **tool to create R Commander GUI Plug-in's**. It is currently also available on CRAN.
+A side-product of the BiclustGUI project came in the form of another R package, [REST](https://cran.r-project.org/web/packages/REST/index.html){:target="_blank"} (**R**cmdr **E**asy **S**cript **T**emplates), a **tool to create R Commander GUI Plug-in's**. It is currently also available on CRAN.
 For this package, we basically took the template scripts (which were specific for biclustering), generalized them and added some extra functionality.
 
 This package is by no means as flexible or powerful as `shiny`, but it does provide you a quick, easy and no-nonsense way to create a **R Commander plug-in** for your own analysis or R package while not having to bother about any `tlctk` syntax.
@@ -460,9 +460,9 @@ Essentialy it would be possible to completely recreate the BiclustGUI using the 
 
 ### Book Project
 
-For those interested in more information on the Biclust GUI, I refer to the elaborate [vignette](https://cran.r-project.org/web/packages/RcmdrPlugin.BiclustGUI/vignettes/GuideBiclustGUI.pdf) included in the BiclustGUI package.
+For those interested in more information on the Biclust GUI, I refer to the elaborate [vignette](https://cran.r-project.org/web/packages/RcmdrPlugin.BiclustGUI/vignettes/GuideBiclustGUI.pdf){:target="_blank"} included in the BiclustGUI package.
 
-The GUI will also be featured in the upcoming book *Applied Biclustering Methods for Big and High Dimensional Data Using R* by Kasim, A., Shkedy, Z., Kaiser, S., Hochreiter, S. and Talloen, W. (28th of September 2016). The book handles various applications of biclustering in gene expression experiments, chemoinformatics, molecular modelling, etc. More information can be found [here](https://ibiostat.be/online-resources/online-resources/biclustgui/bookproject).
+The GUI will also be featured in the upcoming book *Applied Biclustering Methods for Big and High Dimensional Data Using R* by Kasim, A., Shkedy, Z., Kaiser, S., Hochreiter, S. and Talloen, W. (28th of September 2016). The book handles various applications of biclustering in gene expression experiments, chemoinformatics, molecular modelling, etc. More information can be found [here](https://ibiostat.be/online-resources/online-resources/biclustgui/bookproject){:target="_blank"}.
 
 ### Contact
 
