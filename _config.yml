@@ -29,6 +29,7 @@ navbar-links:
     - Presentations: "presentations"
     - Examples: "examples"
     - Blog Archive: "blogarchive"
+    - Blogroll: "blogroll"
   Shiny App:
     - Online Version: "https://uhasselt.shinyapps.io/shiny-biclust/"
     - Download Stand-Alone: "https://ibiostat.be/online-resources/online-resources/biclustgui/shinyapp"
