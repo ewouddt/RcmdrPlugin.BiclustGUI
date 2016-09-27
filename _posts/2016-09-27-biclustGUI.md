@@ -29,6 +29,7 @@ There exist a great deal of different algorithms to find these submatrices. For 
 <p class="caption">
 Heatmap of Example Data Matrix with 2 Biclusters
 </p>
+
 ### The BiclustGUI R Package
 
 Let me start with some motivation why we decided to create this GUI and what we tried to achieve.
