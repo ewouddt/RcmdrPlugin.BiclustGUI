@@ -52,9 +52,9 @@ More Info & Links
 
 -   *Introductory Blog on GitHub/R-Bloggers* (See [Blogpost](https://ewouddt.github.io/RcmdrPlugin.BiclustGUI/2016/09/27/biclustGUI/)).
 -   *Detailed Guide* (See [Vignette](https://github.com/ewouddt/RcmdrPlugin.BiclustGUI/raw/master/vignettes/GuideBiclustGUI.pdf){:target="_blank"})
--   *Shiny Application for Biclustering* ([Shiny Cloud](https://uhasselt.shinyapps.io/shiny-biclust/) + [Stand-Alone](https://ibiostat.be/online-resources/online-resources/biclustgui/shinyapp) + GitHub (Coming Soon))
--   *R-Forge Project Page* ([R-Forge](https://r-forge.r-project.org/R/?group_id=2104)).
--   *I-Biostat Page* ([I-Biostat](https://ibiostat.be/online-resources/online-resources/biclustgui/biclustgui)).
+-   *Shiny Application for Biclustering* ([Shiny Cloud](https://uhasselt.shinyapps.io/shiny-biclust/){:target="_blank"} + [Stand-Alone](https://ibiostat.be/online-resources/online-resources/biclustgui/shinyapp){:target="_blank"} + GitHub (Coming Soon))
+-   *R-Forge Project Page* ([R-Forge](https://r-forge.r-project.org/R/?group_id=2104){:target="_blank"}).
+-   *I-Biostat Page* ([I-Biostat](https://ibiostat.be/online-resources/online-resources/biclustgui/biclustgui){:target="_blank"}).
 
 Currently Available Methods/Diagnostics
 ---------------------------------------
