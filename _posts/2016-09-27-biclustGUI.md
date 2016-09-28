@@ -446,7 +446,7 @@ The Shiny App is available:
 2.  as a **stand-alone version** right [here](https://ibiostat.be/online-resources/online-resources/biclustgui/shinyapp){:target="_blank"} ([Direct Link](https://ibiostat.be/online-resources/online-resources/biclustgui/biclust-shiny-standalone/biclustshiny_standalone_1-0.1){:target="_blank"} for version 1.0.1).
     -   Download the zip-file, extract and doubleclick `LAUNCH.vbs`.
 
-<img src="{{ site.url }}/img/biclustGUI_images/shinyibbig.png" alt="Shiny App - iBBiG" width="100%" />
+<img src="{{ site.url }}/img/biclustGUI_images/shinyibbig.png" alt="Shiny App - iBBiG" width="450" />
 <p class="caption">
 Shiny App - iBBiG
 </p>
