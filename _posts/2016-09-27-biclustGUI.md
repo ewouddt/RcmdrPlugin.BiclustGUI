@@ -178,7 +178,7 @@ All biclustering windows follow the same structure (see Figure below) of 2 tabs.
 -   The second tab, the **Plots & Diagnostics Tab**, will contain, as the name suggests, *plots and diagnostics* for the chosen methods.
 -   At the bottom of the second tab, there are also buttons to access more **general diagnostics packages**. Currently `BcDiag` and `superbiclust` are included.
 
-<img src="{{ site.url }}/img/biclustGUI_images/standard_buttons.png" alt="Standard Window" width="35%" />
+<img src="{{ site.url }}/img/biclustGUI_images/standard_buttons.png" alt="Standard Window" width="350" />
 <p class="caption">
 Standard Window
 </p>
