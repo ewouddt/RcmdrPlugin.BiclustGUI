@@ -19,6 +19,7 @@ This GUI will you enable to quickly try out a wide arrange of biclustering algor
 
 This blog is meant as a short introduction to the GUI which will highlight some features, give an example or two and showcase what else we have done in this area. A detailed instruction guide about all aspects of the GUI (as well as some short explanation about the included algorithms) can be found in the form of a vignette [here](https://cran.r-project.org/web/packages/RcmdrPlugin.BiclustGUI/vignettes/GuideBiclustGUI.pdf){:target="_blank"}. [1]
 
+
 ### What is biclustering?
 
 If you are familiar with the concept of biclustering, you can safely skip this section. If you are not, biclustering is actually a fairly easy concept! Say you have a matrix \(M\), instead of just clustering on a single dimension such as the columns (= finding similar columns based on all the rows), you are going to cluster *simultaneously* on both dimensions. This means you are trying to discover a subset of columns which are similar on only a subset of rows or vice versa. This submatrix which contains this local pattern is what we call a **bicluster**.
@@ -298,7 +299,7 @@ newmethod_WINDOW <- function(){
 }
 ```
 
-<img src="{{ site.url }}/img/biclustGUI_images/discrbin.png" alt="Discretize and Binarize Frames" width="300" />
+<img src="{{ site.url }}/img/biclustGUI_images/discrbin.png" alt="Discretize and Binarize Frames" width="450" />
 <p class="caption">
 Discretize and Binarize Frames
 </p>
