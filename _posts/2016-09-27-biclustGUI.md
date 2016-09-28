@@ -165,7 +165,7 @@ library(RcmdrPlugin.BiclustGUI)
 
 For those not familiar with R Commander (`Rcmdr`), it is a basic statistics GUI by John Fox based on the `tlctk` package. The basic R Commander window contains a script window, where the R code is generated, as well as a console and warning window. The BiclustGUI extends the R Commander window with two extra biclustering menus as you can see in the Figure below:
 
-<img src="{{ site.url }}/img/biclustGUI_images/rcmdrandmenus.png" alt="Basic R Commander Window and Plug-in Menu" width="60%" />
+<img src="{{ site.url }}/img/biclustGUI_images/rcmdrandmenus.png" alt="Basic R Commander Window and Plug-in Menu" width="450" />
 <p class="caption">
 Basic R Commander Window and Plug-in Menu
 </p>
