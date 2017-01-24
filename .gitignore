@@ -6,3 +6,4 @@ pkg.Rproj
 *.bbl
 *.blg
 README.Rmd
+cran-comments.md

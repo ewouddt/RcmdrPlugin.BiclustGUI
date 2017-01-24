@@ -8,14 +8,14 @@ The BiclustGUI for R Commander
 Installing the GUI
 ------------------
 
-To install the **CRAN Release Version** (1.0.6), please use the following commands:
+To install the **CRAN Release Version**, please use the following commands:
 
 ``` r
 setRepositories(ind=c(1:5))
 install.packages("RcmdrPlugin.BiclustGUI")
 ```
 
-To install the **Development Version** (1.0.7) from either the *R-Forge* or *GitHub* repository use
+To install the **Development Version** from either the *R-Forge* or *GitHub* repository use
 
 ``` r
 setRepositories(ind=c(1:5))
@@ -64,91 +64,96 @@ Currently Available Methods/Diagnostics
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">R Package</th>
-<th align="left">Biclustering Method</th>
-<th align="left">Publication</th>
+<th>R Package</th>
+<th>Biclustering Method</th>
+<th>Publication</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><code>biclust</code></td>
-<td align="left">Plaid</td>
-<td align="left">Turnet <em>et al.</em>, 2005</td>
+<td><code>biclust</code></td>
+<td>Plaid</td>
+<td>Turnet <em>et al.</em>, 2005</td>
 </tr>
 <tr class="even">
-<td align="left"><code>biclust</code></td>
-<td align="left"><span class="math inline"><em>δ</em></span>-biclustering</td>
-<td align="left">Cheng and Church, 2000</td>
+<td><code>biclust</code></td>
+<td><span class="math inline"><em>δ</em></span>-biclustering</td>
+<td>Cheng and Church, 2000</td>
 </tr>
 <tr class="odd">
-<td align="left"><code>biclust</code></td>
-<td align="left">X Motif</td>
-<td align="left">Murali and Kasif, 2003</td>
+<td><code>biclust</code></td>
+<td>X Motif</td>
+<td>Murali and Kasif, 2003</td>
 </tr>
 <tr class="even">
-<td align="left"><code>biclust</code></td>
-<td align="left">Spectral</td>
-<td align="left">Kluger <em>et al.</em>, 2003</td>
+<td><code>biclust</code></td>
+<td>Spectral</td>
+<td>Kluger <em>et al.</em>, 2003</td>
 </tr>
 <tr class="odd">
-<td align="left"><code>biclust</code></td>
-<td align="left">QuestMotif</td>
-<td align="left">Kaiser, 2011</td>
+<td><code>biclust</code></td>
+<td>QuestMotif</td>
+<td>Kaiser, 2011</td>
 </tr>
 <tr class="even">
-<td align="left"><code>biclust</code></td>
-<td align="left">Bimax</td>
-<td align="left">Prelic <em>et al</em>., 2006</td>
+<td><code>biclust</code></td>
+<td>Bimax</td>
+<td>Prelic <em>et al</em>., 2006</td>
 </tr>
 <tr class="odd">
-<td align="left"><code>fabia</code></td>
-<td align="left">FABIA</td>
-<td align="left">Hochreiter <em>et al.</em>, 2010</td>
+<td><code>fabia</code></td>
+<td>FABIA</td>
+<td>Hochreiter <em>et al.</em>, 2010</td>
 </tr>
 <tr class="even">
-<td align="left"><code>isa2</code></td>
-<td align="left">The Iterative Signature Algorithm</td>
-<td align="left">Bergman <em>et al</em>., 2003</td>
+<td><code>isa2</code></td>
+<td>The Iterative Signature Algorithm</td>
+<td>Bergman <em>et al</em>., 2003</td>
 </tr>
 <tr class="odd">
-<td align="left"><code>iBBiG</code></td>
-<td align="left">Iterative Binary BIclustering of Genesets</td>
-<td align="left">Gusenleitner <em>et al</em>., 2012</td>
+<td><code>iBBiG</code></td>
+<td>Iterative Binary Biclustering of Genesets</td>
+<td>Gusenleitner <em>et al</em>., 2012</td>
 </tr>
 <tr class="even">
-<td align="left"><code>rqubic</code></td>
-<td align="left">Qualitative Biclustering</td>
-<td align="left">Li <em>et al</em>., 2009</td>
+<td><code>rqubic</code></td>
+<td>Qualitative Biclustering</td>
+<td>Li <em>et al</em>., 2009</td>
 </tr>
 <tr class="odd">
-<td align="left"><code>BicARE</code></td>
-<td align="left">Biclustering Analysis and Results Exploration</td>
-<td align="left">Gestraud and Barillot, 2014</td>
+<td><code>BicARE</code></td>
+<td>Biclustering Analysis and Results Exploration</td>
+<td>Gestraud and Barillot, 2014</td>
 </tr>
 <tr class="even">
-<td align="left"><code>s4vd</code></td>
-<td align="left">SSVD (Sparse Singular Value Decomposition)</td>
-<td align="left">Lee <em>et al</em>., 2010</td>
+<td><code>s4vd</code></td>
+<td>SSVD (Sparse Singular Value Decomposition)</td>
+<td>Lee <em>et al</em>., 2010</td>
 </tr>
 <tr class="odd">
-<td align="left"><code>s4vd</code></td>
-<td align="left">S4VD (SSVD incorporating stability correction)</td>
-<td align="left">Sill <em>et al</em>., 2011</td>
+<td><code>s4vd</code></td>
+<td>S4VD (SSVD incorporating stability correction)</td>
+<td>Sill <em>et al</em>., 2011</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>R Package</strong></td>
-<td align="left"><strong>Diagnostics</strong></td>
-<td align="left"><strong>Publication</strong></td>
+<td><code>BiBitR</code></td>
+<td>Biclustering Algorithm for extracting bit-patterns from binary data-sets</td>
+<td>Rodriguez-Baena <em>et al</em>., 2011</td>
 </tr>
 <tr class="odd">
-<td align="left"><code>BcDiag</code></td>
-<td align="left">Bicluster Diagnostic Plots</td>
-<td align="left">Aregay <em>et al</em>., 2014</td>
+<td><strong>R Package</strong></td>
+<td><strong>Diagnostics</strong></td>
+<td><strong>Publication</strong></td>
 </tr>
 <tr class="even">
-<td align="left"><code>superbiclust</code></td>
-<td align="left">Generating Robust Biclusters from a Bicluster Set</td>
-<td align="left">Khamiakova, 2013</td>
+<td><code>BcDiag</code></td>
+<td>Bicluster Diagnostic Plots</td>
+<td>Aregay <em>et al</em>., 2014</td>
+</tr>
+<tr class="odd">
+<td><code>superbiclust</code></td>
+<td>Generating Robust Biclusters from a Bicluster Set</td>
+<td>Khamiakova, 2013</td>
 </tr>
 </tbody>
 </table>
