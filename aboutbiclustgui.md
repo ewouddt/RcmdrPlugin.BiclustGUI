@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About the BiclustGUI
+title: BiclustGUI 1.1.0
 subtitle: Installation, Info & Links
 ---
 
