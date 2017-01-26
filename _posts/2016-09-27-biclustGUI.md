@@ -192,7 +192,7 @@ Let's now look at 2 examples which mimic a short biclustering exploration. Both 
 2.  Go the second tab.
 3.  Generate a Profile Plot.
 
-<img src="{{ site.url }}/img/biclustGUI_images/guiexample.png" alt="Plaid Windows" width="450"" />
+<img src="{{ site.url }}/img/biclustGUI_images/guiexample.png" alt="Plaid Windows" width="450" />
 <p class="caption">
 Plaid Windows
 </p>
