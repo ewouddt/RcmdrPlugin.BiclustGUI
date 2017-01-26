@@ -192,7 +192,7 @@ Let's now look at 2 examples which mimic a short biclustering exploration. Both 
 2.  Go the second tab.
 3.  Generate a Profile Plot.
 
-<img src="{{ site.url }}/img/biclustGUI_images/guiexample.png" alt="Plaid Windows" width="450" />
+<img src="{{ site.url }}/img/biclustGUI_images/guiexample.png" alt="Plaid Windows" width="900" />
 <p class="caption">
 Plaid Windows
 </p>
@@ -211,7 +211,7 @@ BcDiag Profile Plots
 3.  Use *Biclust Plots* button to access plots from the `biclust` package.
 4.  Use the heatmap button to generate the graph in a R Graphics Device.
 
-<img src="{{ site.url }}/img/biclustGUI_images/guiexample2.png" alt="FABIA Windows" width="450" />
+<img src="{{ site.url }}/img/biclustGUI_images/guiexample2.png" alt="FABIA Windows" width="900" />
 <p class="caption">
 FABIA Windows
 </p>
@@ -312,7 +312,7 @@ So the only part that's left now is to design how the two tabs should look like.
 2.  Configuring the frames into a grid (matrix).
 3.  Combining rows into a box.
 
-<img src="{{ site.url }}/img/biclustGUI_images/plaid_structure.png" width="450" style="display: block; margin: auto;" />
+<img src="{{ site.url }}/img/biclustGUI_images/plaid_structure.png" width="900" style="display: block; margin: auto;" />
 
 Let's look how this would look like for the first tab. Note that this part starts by putting the `input` variable to `"clusterTab"` to indicate that we are adding information to the first tab.
 
@@ -410,7 +410,7 @@ superbiclust.comp <- TRUE
 
 Next, we go on to step 1 of the first tab, defining the frames. In the figure below you can find 2 examples of these frames and how it would look like in the final interface.
 
-<img src="{{ site.url }}/img/biclustGUI_images/plaid_clusterbuild.png" width="450" style="display: block; margin: auto;" />
+<img src="{{ site.url }}/img/biclustGUI_images/plaid_clusterbuild.png" width="600" style="display: block; margin: auto;" />
 
 Once step 1 is completed, we head over to step 2 and 3 to configure the grid and create 2 boxes around row 1 and row 2 and 3.
 
@@ -431,7 +431,7 @@ grid.rows <- .combine.rows(input=input,rows=c(2,3),title=
 
 The same 3 steps are repeated for the second tab which will now include buttons as well. The following figure shows how the heatmap button pulls its arguments from 2 different frames, a checkbox and entry field.
 
-<img src="{{ site.url }}/img/biclustGUI_images/plaid_plotdiagbuild.png" width="450" style="display: block; margin: auto;" />
+<img src="{{ site.url }}/img/biclustGUI_images/plaid_plotdiagbuild.png" width="600" style="display: block; margin: auto;" />
 
 At the end everything comes together again in the `cluster_template()` function which marks the end of the script.
 
@@ -446,7 +446,7 @@ The Shiny App is available:
 2.  as a **stand-alone version** right [here](https://ibiostat.be/online-resources/online-resources/biclustgui/shinyapp){:target="_blank"} ([Direct Link](https://ibiostat.be/online-resources/online-resources/biclustgui/biclust-shiny-standalone/biclustshiny_standalone_1-0.1){:target="_blank"} for version 1.0.1).
     -   Download the zip-file, extract and doubleclick `LAUNCH.vbs`.
 
-<img src="{{ site.url }}/img/biclustGUI_images/shinyibbig.png" alt="Shiny App - iBBiG" width="450" />
+<img src="{{ site.url }}/img/biclustGUI_images/shinyibbig.png" alt="Shiny App - iBBiG" width="900" />
 <p class="caption">
 Shiny App - iBBiG
 </p>
