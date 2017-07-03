@@ -10,7 +10,7 @@ BiclustGUI 1.1.1: BiBit Workflow for Noisy Biclusters
 ================
 Ewoud De Troyer, University of Hasselt (CenStat)
 
-### Introduction - 1.1.1 Patch
+### Introduction - 1.1.1 Update
 
 The 1.1.1 update of the BiclustGUI introduces two 2 new features:
 
