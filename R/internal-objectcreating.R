@@ -615,6 +615,10 @@ robust.fuse.support <- function(robust.list,RowxNumber,NumberxCol){
 		#S4VD # PLACEHOLDER
 		method_data <- rbind(method_data,c("S4VD","Coherent Values","Multiplicative","s4vd_WIN()","S4VD"))
 		
+		# BiBit
+		method_data <- rbind(method_data,c("BiBit","Constant","NA","bibit_WIN()","BiBit"))
+		
+		
 		# Assigning to Global Variable
 #		assign("biclustGUI_biclusteringsearchdata", method_data, envir = .GlobalEnv)
 		.AssignEnvBiclustGUI("biclustGUI_biclusteringsearchdata",method_data)
