@@ -157,14 +157,14 @@ HeatmapBC.GUI <- function(data,res,BC=c(),legend=TRUE,reorder=FALSE,background=F
 	### Making color vector	 + legend color
 	col <- colors()[c(610,565,589,367,22,554,41,35,48,59,64,76,91,96,100,116,143,381,389,394.439,448,471,529,559,568,631,646)]
 	while (length(col) < length(nBC)){ col = c(col, col)}
-	legendcol = col[nBC]
+	legendcol = col[1:length(nBC)]
 	
 	
 	
 	# When highlighting BC, apply transparancy to all the other colors if asked	
 	if(!is.null(BC.highlight)){
 		col[-BC.highlight] <- makeTransparent(col[-BC.highlight],opacity=BC.highlight.opacity)
-		legendcol=col[nBC]
+		legendcol=col[1:length(nBC)]
 		
 	}
 	
