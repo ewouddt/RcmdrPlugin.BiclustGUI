@@ -2,8 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
-pkg.Rproj
+*.Rproj
 *.bbl
 *.blg
 README.Rmd
-cran-comments.md
