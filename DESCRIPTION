@@ -38,7 +38,7 @@ Imports:
     viridis
 VignetteBuilder: knitr
 Suggests:
-    knitr, rqubic
+    knitr, rqubic, BiocManager
 NeedsCompilation: no
 Packaged: 2016-06-07 15:25:44 UTC; lucp8394
 RoxygenNote: 7.1.1

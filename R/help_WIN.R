@@ -9,7 +9,7 @@ biclustGUI_help <- function(){
 }
 
 openGUIScripts <- function(){ # Possible only works for windows atm
-	dir <- file.path(system.file("doc",package="RcmdrPlugin.BiclustGUI"))
+	dir <- file.path(system.file("scripts",package="RcmdrPlugin.BiclustGUI"))
 	browseURL(dir)
 
 }

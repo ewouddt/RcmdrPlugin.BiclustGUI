@@ -25,7 +25,7 @@ More detailed information about all the implementations and scripting of \code{R
 Kasim, A., Shkedy, Z., Kaiser, S., Hochreiter, S. and Talloen W. (2016), ``Applied Biclustering Methods for Big and High Dimensional Data Using R'', \emph{CRC}
  }
 \seealso{
-  The Bicluster algorithms in the packages: \code{\link{biclust}}, \code{\link{fabia}}, \code{\link{iBBiG}}, \code{\link{rqubic}} and \code{\link{BicARE}}.
+  The Bicluster algorithms in the packages: \code{\link{biclust}}, \code{\link{fabia}}, \code{\link{iBBiG}}, \code{rqubic} and \code{\link{BicARE}}.
   
   Additional Plotting & Diagnostics packages: \code{\link{superbiclust}} and \code{\link{BcDiag-package}}
 }

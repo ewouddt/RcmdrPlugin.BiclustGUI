@@ -27,7 +27,7 @@
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
 %\usepackage{Sweave}
 
-\title{The BiclustGUI R Package - 1.1.1}
+\title{The BiclustGUI R Package - 1.1.3}
 \author{De Troyer Ewoud}
 \date{}
 \begin{document}
@@ -3069,7 +3069,7 @@ Appendix.
 \verb|newmethod_script.R| (or \verb|newtool_script.R|) to your own file. Next,
 simply change the variables so they fit your new application and add new frames
 by copying and adapting the default ones from \verb|frames_scripts.R| inside your
-new file. Note that all of the above mentioned R files are available in the documentation
+new file. Note that all of the above mentioned R files are available in the scripts
 folder of \verb|RcmdrPlugin.BiclustGUI|.
 Finally, to test your new window, simply load in the BiclustGUI in R and
 run the \verb|newmethod_WINDOW| function you've created.
@@ -3301,7 +3301,7 @@ checked}\label{superbiclust_example2}}
 
 \subsection{Guideline - Template Scripts}
 \subsubsection{newmethod\_script}
-\noindent This script can also be found in the \verb|doc| subdirectory of the
+\noindent This script can also be found in the \verb|scripts| subdirectory of the
 package.
 \begin{verbatim}
 newmethod_WINDOW <- function(){     # Change newmethod to your own method name
@@ -4134,7 +4134,7 @@ biclustplaid_WIN <- function(){
 
 \end{verbatim}
 \subsubsection{newtool\_script}
-\noindent This script can also be found in the \verb|doc| subdirectory of the
+\noindent This script can also be found in the \verb|scripts| subdirectory of the
 package.
 \begin{verbatim}
 newtool_WINDOW <- function(methodname){  

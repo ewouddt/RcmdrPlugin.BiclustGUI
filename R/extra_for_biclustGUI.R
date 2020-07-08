@@ -425,6 +425,19 @@ writeBic.GUI <- function(dset,fileName="",bicResult,bicname,mname=c("fabia","isa
 
 rqubic.GUI <- function(x,eSetData.name,q,rank,minColWidth,report.no,tolerance,filter.proportion,check.disc){
 
+  
+  if(!("rqubic"%in%.packages())){
+    if(!requireNamespace("rqubic",quietly = TRUE)){
+      if (!requireNamespace("BiocManager", quietly = TRUE)){
+        doItAndPrint(paste0("install.packages('BiocManager')"))
+      }
+      doItAndPrint(paste0("BiocManager::install('rqubic')"))
+      doItAndPrint(paste0("require('rqubic')"))
+    }else{
+      doItAndPrint(paste0("require('rqubic')"))
+    }
+  }
+  
 	# x is already a eSet object. It will not be used here, just for show (make it fit in the framework)
 
 	
