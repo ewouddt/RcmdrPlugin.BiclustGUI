@@ -18,7 +18,7 @@ Description: A plug-in for R Commander ('Rcmdr'). The package is a Graphical
     added. Scripts were prepared so that R-package developers can freely design
     their own dialogs in the GUI which can then be added by the maintainer of
     'RcmdrPlugin.BiclustGUI'. These scripts do not required any knowledge of 'tcltk'
-    and 'Rcmdr' and are easy to fill in.
+    and 'Rcmdr' and are easy to fill in. (Note: rqubic currently requires manual installation through BiocManager::install('rqubic').)
 License: GPL-3
 Depends:
     biclust,
@@ -42,3 +42,4 @@ Suggests:
 NeedsCompilation: no
 Packaged: 2016-06-07 15:25:44 UTC; lucp8394
 RoxygenNote: 7.1.1
+Additional_repositories: https://git.bioconductor.org/packages/rqubic
