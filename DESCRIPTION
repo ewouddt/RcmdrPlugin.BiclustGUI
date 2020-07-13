@@ -42,4 +42,4 @@ Suggests:
 NeedsCompilation: no
 Packaged: 2016-06-07 15:25:44 UTC; lucp8394
 RoxygenNote: 7.1.1
-Additional_repositories: https://git.bioconductor.org/packages/rqubic
+
